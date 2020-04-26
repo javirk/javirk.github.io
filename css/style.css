@@ -7,7 +7,7 @@ is the file you need to edit to change the look of the
 theme.
 ---------------------------------------------------- */
 /*=====================================================================
-@Template Name: HostHub Construction 
+@Template Name: HostHub Construction
 @Developed By: Naim Lasker
 Author E-mail: naimlasker@gmail.com
 
@@ -80,6 +80,10 @@ button:focus {
 
 .mt-50 {
   margin-top: 50px; }
+
+ul li {
+  list-style-type: none;
+}
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
@@ -344,13 +348,13 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  background: url(../img/banner/home-banner.png) no-repeat top center;
   background-position: center;
   background-size: cover; }
   .home_banner_area .banner_inner {
     width: 100%; }
     .home_banner_area .banner_inner .home_right_img {
-      padding-top: 197px; }
+      padding-top: 130px;
+      text-align: center;}
       @media (max-width: 1480px) {
         .home_banner_area .banner_inner .home_right_img img {
           max-width: 100%;
@@ -381,6 +385,20 @@ button:focus {
           @media (max-width: 575px) {
             .home_banner_area .banner_inner .banner_content h3:after {
               display: none; } }
+        .home_banner_area .banner_inner .banner_content ul li .fa {
+          margin-right: 15px;
+          display:inline-block;
+        }
+        .home_banner_area .banner_inner .banner_content .header_social ul li:hover .fa{
+          color: #0033cc;
+        }
+        .home_banner_area .banner_inner .banner_content a {
+          color:inherit;
+        }
+        .home_banner_area .banner_inner .banner_content a:hover {
+          color:#0033cc;
+        }
+
       .home_banner_area .banner_inner .banner_content h1 {
         margin-top: 20px;
         font-size: 70px;
@@ -2464,6 +2482,30 @@ h6 {
     .brand_area {
       padding-bottom: 80px; } }
 
+.about_tag {
+  word-break: break-all;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.about_tag ul li {
+  margin: 0px 6px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 4px 0px;
+  display: inline-block;
+}
+
+.about_tag ul li span {
+  border: 1px solid #4368aa;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.about_tag ul li span:hover {
+  background-color: transparent !important;
+}
+
 /* End Barand Area css
 ============================================================================================ */
 /* Start Features Area css
@@ -2472,18 +2514,33 @@ h6 {
   padding-bottom: 170px; }
   @media (max-width: 1199px) {
     .features_area {
-      padding-bottom: 50px; } }
+      padding-bottom: 50px;
+      } }
+.feature_inner {
+  justify-content: center;
+}
+
+.container_features_left {
+  width: 50%;
+  float:left;
+}
+
+.container_features_right {
+  width: 50%;
+  float: right;
+}
 
 .feature_item {
   padding: 45px 25px;
   text-align: center;
-  background: #f9f9fd;
+  background: #ffffff;
   cursor: pointer;
   margin-bottom: 30px;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
-  transition: all 0.4s ease 0s; }
+  transition: all 0.4s ease 0s;
+  min-height: 391px;}
   .feature_item img {
     margin-bottom: 35px; }
   .feature_item h4 {
@@ -2493,7 +2550,7 @@ h6 {
   .feature_item p {
     margin-bottom: 0px; }
   .feature_item:hover {
-    box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
+    box-shadow: 0px 15px 15px rgba(77, 87, 222, 0.3);
     background: #fff; }
 
 /* End Features Area css
@@ -2608,7 +2665,7 @@ h6 {
 /* Start Portfolio Area css
 ============================================================================================ */
 .portfolio_area {
-  padding-bottom: 120px; }
+/*padding-bottom: 120px;*/ }
   @media (max-width: 991px) {
     .portfolio_area {
       padding-bottom: 50px; } }
@@ -3002,7 +3059,15 @@ h6 {
     margin-top: 0; }
 
   .home_right_img {
-    display: none; }
+    display:none;}
+
+  .img_border {
+    height: 400px;
+    width: 400px;
+    border: 20px solid rgba(0, 0, 0, 0.07);
+    margin: 0 auto;
+    border-radius: 50%;
+  }
 
   /* Footer Area css
   ============================================================================================ */
@@ -3155,6 +3220,7 @@ h6 {
 
   .home_banner_area .banner_inner .banner_content h5 {
     margin-top: 0px; }
+
 
   /* End Home Banner Area css
   ============================================================================================ */
