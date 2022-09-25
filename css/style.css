@@ -2462,6 +2462,10 @@ h6 {
   .about_area .about_img {
     position: relative;
     right: 250px; }
+  .face_img {
+      max-width: 200px;
+      position:relative;
+    }
     @media (max-width: 1480px) {
       .about_area .about_img {
         right: 0; }
@@ -2471,6 +2475,8 @@ h6 {
     @media (max-width: 991px) {
       .about_area .about_img {
         display: none; } }
+
+
 
 /* End About Us Area css
 ============================================================================================ */
@@ -3373,4 +3379,21 @@ h6 {
 ============================================================================================ */
 /*---------------------------------------------------- */
 
+/* My things */
+.rev-summary {
+  background-color: #afb7ff;
+  color: black;
+  font-family: 'Franklin Gothic'
+}
+
+.rating-icon {
+  max-height: 80px;
+  max-width: 80px;
+}
+
+.percentage {
+  font-size: 2.5em;
+}
+
 /*# sourceMappingURL=style.css.map */
+

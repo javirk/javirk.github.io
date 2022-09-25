@@ -6514,6 +6514,18 @@ button.bg-dark:hover {
     border-radius: .25rem !important
 }
 
+.rounded-lg {
+    border-radius: 1.25rem !important
+}
+
+.rounded-md {
+    border-radius: 1rem !important
+}
+
+.rounded-sd {
+    border-radius: .75rem !important
+}
+
 .rounded-top {
     border-top-left-radius: .25rem !important;
     border-top-right-radius: .25rem !important
