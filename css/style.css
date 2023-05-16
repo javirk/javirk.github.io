@@ -3396,4 +3396,23 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+#publications b {
+  color: black;
+}
 
+#publications u {
+  color: black;
+}
+
+#publications ol.bibliography li span {
+  display: block;
+}
+
+#publications ol.bibliography li span.links a {
+  color: darkblue;
+  font-weight: bolder;
+}
+
+.bibliography {
+  list-style-type: none;
+}
