@@ -359,9 +359,9 @@ ul li {
         .home_banner_area .banner_inner .home_right_img img {
           max-width: 100%;
           height: auto; } }
-      @media (max-width: 991px) {
+      /*@media (max-width: 991px) {
         .home_banner_area .banner_inner .home_right_img {
-          display: none; } }
+          display: none; } }*/
     .home_banner_area .banner_inner .col-lg-7 {
       vertical-align: middle;
       align-self: center; }
@@ -3068,9 +3068,6 @@ h6 {
   .home_banner_area {
     margin-top: 0; }
 
-  .home_right_img {
-    display:none;}
-
   .img_border {
     height: 400px;
     width: 400px;
@@ -3415,4 +3412,8 @@ h6 {
 
 .bibliography {
   list-style-type: none;
+}
+
+.bibliography li {
+  margin-bottom: 15px;
 }
